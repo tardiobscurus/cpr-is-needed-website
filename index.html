@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPR is Needed - Map View</title>
+</head>
+<body style="background-color: black; color: white; font-family: 'Calibri';">
+    <label for="maps_view">Select a date to see server map:</label>
+    <select name="maps_view" id="maps">
+        <option value="05_01_22" selected>Map: 05/01/22</option>
+        <option value="05_05_22">Map: 05/05/22</option>
+        <option value="05_10_22">Map: 05/10/22</option>
+        <option value="05_15_22">Map: 05/15/22</option>
+        <option value="05_20_22">Map: 05/20/22</option>
+        <option value="05_25_22">Map: 05/25/22</option>
+    </select>
+    <button id="submit" >Go!</button>
+    <p><b>Map seed</b>: 1134787964506684043 | <a href="https://docs.google.com/document/d/1pYBQwwa6Q4Aic0wQwXRrojbOpsgbGWuKM_juI2V2JXM/edit" target="_blank" style="color: cornflowerblue;">Google Docs on Coords</a> | If you want you town name in the map, ask Hansel!</p>
+    <iframe src="./05_01_22/unmined.index.html" width="100%" height="490vh" id="viewmap">Select a date from the realms! ^</iframe>
+    <p style="font-size: 10px;"><b>uNmINeD</b> Copyright (C) 2011-2022 by Balázs Farkas</p>
+    <script src="./main.js"></script>
+</body>
+</html>
