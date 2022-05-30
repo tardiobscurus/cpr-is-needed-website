@@ -3,6 +3,29 @@ UnminedCustomMarkers = {
     isEnabled: true,
 
     markers: [
+        // Caverns
+        {
+            x: -2010,
+            z: -18,
+            text: "Chavez Caverns",
+            textColor: "yellow",
+            font: "bold 15px Calibri, sans serif"
+        },
+        {
+            x: -1314,
+            z: 566,
+            text: "Flores Caverns",
+            textColor: "yellow",
+            font: "bold 15px Calibri, sans serif"
+        },
+        {
+            x: -580,
+            z: 635,
+            text: "Coriz Caverns",
+            textColor: "yellow",
+            font: "bold 15px Calibri, sans serif"
+        },
+
         // Towns, Islands, and/or other major places.
         {
             x: -67,
@@ -36,7 +59,6 @@ UnminedCustomMarkers = {
         },
 
         // Villages
-
         {
             x: -1451,
             z: -203,
@@ -45,27 +67,5 @@ UnminedCustomMarkers = {
             font: "bold 15px Calibri, sans serif"
         },
 
-        // Caverns
-        {
-            x: -2010,
-            z: -18,
-            text: "Chavez Caverns",
-            textColor: "yellow",
-            font: "bold 15px Calibri, sans serif"
-        },
-        {
-            x: -1314,
-            z: 566,
-            text: "Flores Caverns",
-            textColor: "yellow",
-            font: "bold 15px Calibri, sans serif"
-        },
-        {
-            x: -580,
-            z: 635,
-            text: "Cortiz Caverns",
-            textColor: "yellow",
-            font: "bold 15px Calibri, sans serif"
-        },
     ]
 }
