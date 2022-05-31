@@ -67,5 +67,14 @@ UnminedCustomMarkers = {
             font: "bold 15px Calibri, sans serif"
         },
 
+        // road signs
+        // f-15
+        {
+            x: -85,
+            y: 573,
+            text: "15",
+            textColor: "white",
+            font: "bold 5px Calibri, sans serif"
+        }
     ]
 }

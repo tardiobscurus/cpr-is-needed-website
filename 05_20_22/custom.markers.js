@@ -41,5 +41,14 @@ UnminedCustomMarkers = {
             font: "bold 25px Calibri, sans serif"
         },
 
+        // road signs
+        // f-15
+        {
+            x: -85,
+            y: 573,
+            text: "Bida",
+            textColor: "white",
+            font: "bold 5px Calibri, sans serif"
+        },
     ]
 }
